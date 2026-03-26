@@ -1,0 +1,10 @@
+[project]
+name = "src"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.42.76",
+    "boto3-stubs[bedrock-runtime,s3vector,s3vectors]>=1.42.76",
+]
